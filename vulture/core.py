@@ -81,7 +81,7 @@ def _ignore_class(filename, class_name):
 
 def _ignore_import(filename, import_name):
     """
-    Ignore star-imported names since we can't detect whether they are used.
+    Ignore star-imported names since we can't detect whether  they are used.
     Ignore imports from __init__.py files since they're commonly used to
     collect objects from a package.
     """
